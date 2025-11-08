@@ -1,0 +1,10 @@
+# Node / general
+node_modules/
+dist/
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build artifacts
+*.log

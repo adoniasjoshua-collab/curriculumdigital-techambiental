@@ -1,0 +1,188 @@
+/* print.css — Dedicated print/PDF styles for premium resume (A4, 300dpi) */
+
+@media print {
+  html, body {
+    background: #fff !important;
+    color: var(--color-text) !important;
+    font-family: Lato, Arial, sans-serif !important;
+    font-size: 1rem !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .print-area {
+    width: 95%;
+    min-height: 100%;
+    margin: 1rem auto;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+  }
+
+  header.site-header, .site-footer, .skip-link, .hero-ctas, nav, .nav-toggle {
+    display: none !important;
+  }
+
+  .resume-header-print {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .resume-header-print .name-block{
+    display:flex;
+    align-items:center;
+    gap: 6mm;
+  }
+  .resume-header-print .profile-avatar{
+    width: 28mm;
+    height: 28mm;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1mm solid #fff;
+    box-shadow: none;
+  }
+
+  .resume-header-print .name {
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 0;
+  }
+
+  .resume-header-print .title {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin: 0 0 0.5rem;
+  }
+
+  .resume-header-print .contact {
+    text-align: right;
+    font-size: 0.9rem;
+    color: var(--color-subtext);
+    margin: 0;
+  }
+
+  
+
+  section {
+    /* Ensure major sections start on a new page for a clean multi-page layout */
+    break-before: page;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0;
+    border: none;
+  }
+
+  /* The first section shouldn't have a page break before it */
+  section:last-child {
+    break-after: auto;
+  }
+
+  h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 0 0 0.5rem;
+    border-bottom: 1px solid #e0e6e3;
+    padding-bottom: 0.2rem;
+  }
+
+  h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin: 0 0 0.2rem;
+  }
+  /* Show URLs in print for buttons/links */
+  a[href] {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+  .projects a.btn::after,
+  #qualificacoes a.ext-link::after,
+  .contact a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8rem;
+    color: #000;
+  }
+
+  p, li {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    margin: 0 0 0.3rem;
+    line-height: 1.4;
+  }
+
+  ul {
+    margin: 0 0 0.3rem 1.2em;
+    padding: 0;
+  }
+
+  .job, .project-card {
+    background: #fff !important;
+    border-radius: 0.5rem;
+    box-shadow: none !important;
+    border: 1px solid #e0e6e3;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    break-inside: avoid;
+  }
+
+  .date-col {
+    width: 20%;
+    text-align: right;
+    font-size: 0.75rem;
+    color: var(--color-subtext);
+    padding-right: 0.3rem;
+    vertical-align: top;
+  }
+
+  .job-content-col {
+    width: auto;
+    vertical-align: top;
+  }
+
+  .section-separator {
+    border-top: 1px solid #e0e6e3;
+    margin: 0.5rem 0;
+  }
+
+  .footer-print {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0.8rem;
+    color: var(--color-subtext);
+    padding-right: 1rem;
+  }
+
+  .footer-print .page-num {
+    font-weight: 500;
+    color: var(--color-primary);
+  }
+}
+
+  .footer-print .page-num::after { content: counter(page); }
+  .footer-print .total-pages::after { content: counter(pages); }
+
