@@ -1,0 +1,110 @@
+[
+  {
+    "empresa": "ENESA ENGENHARIA S.A.",
+    "cargo": "Técnico de Meio Ambiente III",
+    "inicio": "2025-06-09",
+    "fim": "2025-09-06",
+    "itens": [
+      "Inspeções de campo assegurando conformidade com ISO 14001 e procedimentos do cliente (S11D).",
+      "Gestão de resíduos, áreas de armazenamento, manifestos e evidências fotográficas.",
+      "Apoio a treinamentos introdutórios e sensibilização ambiental nas frentes.",
+      "Relatórios e dashboards (Google Sheets, Power BI, AppSheet) para KPIs em tempo real.",
+      "Comunicação eficaz com equipes multidisciplinares para mitigação de riscos ambientais.",
+      "Participação em auditorias internas, garantindo conformidade regulatória.",
+      "Gestão de registro de eventos e não conformidades.",
+      "Gestão de produtos químicos e Fichas com Dados de Segurança (FDS)."
+    ]
+  },
+  {
+    "empresa": "CKTR BRASIL SERVIÇOS LTDA",
+    "cargo": "Técnico de Meio Ambiente",
+    "inicio": "2024-05-15",
+    "fim": "2025-04-10",
+    "itens": [
+      "Acompanhamento ambiental em obras e montagem, controle de aspectos e impactos.",
+      "Gestão de resíduos: segregação, transporte e destinação com rastreabilidade.",
+      "Gestão de produtos químicos e Fichas com Dados de Segurança (FDS).",
+      "Suporte a auditorias internas e padronização de relatórios do SGA.",
+      "Gestão de registro de eventos e não conformidades.",
+      "Desenvolvimento de soluções digitais para otimização de processos (AppSheet, Google Sheets).",
+      "Comunicação de riscos e treinamentos para equipes de campo.",
+      "Monitoramento de áreas e controle de efluentes conforme plano ambiental.",
+      "Tratamento de dados (Excel/Sheets) e emissão de relatórios executivos.",
+      "Apoio na elaboração de planos de ação corretivos e preventivos.",
+      "Inspeções ambientais e verificação de atendimento aos procedimentos do cliente.",
+      "Monitoramento de áreas, controle de efluentes e particulados conforme plano.",
+      "Revisão da matriz LAIA e identificação de aspectos ambientais significativos."
+    ]
+  },
+  {
+    "empresa": "MIP ENGENHARIA LTDA",
+    "cargo": "Técnico de Meio Ambiente Pleno",
+    "inicio": "2024-01-24",
+    "fim": "2024-04-22",
+    "itens": [
+      "Inspeções ambientais e verificação de atendimento aos procedimentos do cliente.",
+      "Monitoramento de áreas, controle de efluentes e particulados conforme plano.",
+      "Tratamento de dados (Excel/Sheets) e emissão de relatórios executivos.",
+      "Apoio na elaboração de planos de ação corretivos e preventivos.",
+      "Gestão de registro de eventos e não conformidades.",
+      "Desenvolvimento de soluções digitais para otimização de processos (AppSheet, Google Sheets).",
+      "Comunicação de riscos e treinamentos para equipes de campo.",
+      "Revisão de edição PGRS – Plano de Resíduos Sólidos.",
+      "Apoio na implantação e monitoramento do programa de coleta seletiva.",
+      "Responsável pela atualização da matriz de treinamentos ambientais.",
+      "Aplicação de checklists digitais para inspeções de campo."
+    ]
+  },
+  {
+    "empresa": "PLAMONT - PLANEJAMENTO, MONTAGEM E ENGENHARIA LTDA",
+    "cargo": "Técnico em Meio Ambiente II",
+    "inicio": "2023-06-14",
+    "fim": "2023-11-09",
+    "itens": [
+      "Acompanhamento de montagem mecânica e obras civis com foco em ISO 14001.",
+      "Inspeções de campo, comunicação de não conformidades e evidências.",
+      "Implantação de rotinas digitais (AppSheet/Sheets) para registros e checklists.",
+      "Suporte a treinamentos e campanhas de educação ambiental."
+    ]
+  },
+  {
+    "empresa": "AFRY BRASIL LTDA",
+    "cargo": "Técnico de Meio Ambiente III",
+    "inicio": "2022-10-17",
+    "fim": "2023-04-04",
+    "itens": [
+      "Gestão ambiental de obras industriais: resíduos, efluentes e emissões.",
+      "Responsável pelo acompanhamento de auditorias internas e externas nas contratadas.",
+      "Atendimento a auditorias e inspeções externas com ações corretivas.",
+      "Padronização de formulários e fluxo de evidências com rastreabilidade.",
+      "Relatórios técnicos consolidados para gestão e cliente.",
+      "Responsável pelo apoio na gestão ambiental das contratadas",
+      "Relatórios de inspeção ambiental e acompanhamento de ações corretivas."
+    ]
+  },
+  {
+    "empresa": "COMPANHIA PARANAENSE DE CONSTRUÇÃO S/A (CPC)",
+    "cargo": "Técnico em Meio Ambiente III",
+    "inicio": "2022-09-01",
+    "fim": "2022-10-03",
+    "itens": [
+      "Inspeções de campo e conformidade com procedimentos locais e ISO 14001.",
+      "Checagem documental de fornecedores e frentes de serviço.",
+      "Suporte a ações de 5S e controle de áreas de armazenamento.",
+      "Relatórios sucintos de acompanhamento para engenharia e obra."
+    ]
+  },
+  {
+    "empresa": "PLAMONT - PLANEJAMENTO, MONTAGEM E ENGENHARIA LTDA",
+    "cargo": "Técnico em Meio Ambiente",
+    "inicio": "2021-11-08",
+    "fim": "2022-07-05",
+    "itens": [
+      "Monitoramento ambiental de rotina, inspeções e registros fotográficos.",
+      "Gestão de resíduos e apoio à conformidade legal e corporativa.",
+      "Integração de dados em planilhas para indicadores operacionais.",
+      "Comunicação de riscos e orientação de equipes de campo."
+    ]
+  }
+]
+

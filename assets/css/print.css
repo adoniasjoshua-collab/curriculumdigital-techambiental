@@ -1,188 +1,28 @@
-/* print.css — Dedicated print/PDF styles for premium resume (A4, 300dpi) */
+/* Print-optimized stylesheet (UTF-8, no BOM) */
+@page{size:A4;margin:14mm}
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
-@media print {
-  html, body {
-    background: #fff !important;
-    color: var(--color-text) !important;
-    font-family: Lato, Arial, sans-serif !important;
-    font-size: 1rem !important;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .print-area {
-    width: 95%;
-    min-height: 100%;
-    margin: 1rem auto;
-    background: #fff;
-    box-sizing: border-box;
-    padding: 0;
-    position: relative;
-  }
-
-  header.site-header, .site-footer, .skip-link, .hero-ctas, nav, .nav-toggle {
-    display: none !important;
-  }
-
-  .resume-header-print {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border-bottom: 2px solid var(--color-accent);
-    padding-bottom: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .resume-header-print .name-block{
-    display:flex;
-    align-items:center;
-    gap: 6mm;
-  }
-  .resume-header-print .profile-avatar{
-    width: 28mm;
-    height: 28mm;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 1mm solid #fff;
-    box-shadow: none;
-  }
-
-  .resume-header-print .name {
-    font-family: Poppins, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin: 0;
-  }
-
-  .resume-header-print .title {
-    font-family: Poppins, sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--color-secondary);
-    margin: 0 0 0.5rem;
-  }
-
-  .resume-header-print .contact {
-    text-align: right;
-    font-size: 0.9rem;
-    color: var(--color-subtext);
-    margin: 0;
-  }
-
-  
-
-  section {
-    /* Ensure major sections start on a new page for a clean multi-page layout */
-    break-before: page;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0;
-    border: none;
-  }
-
-  /* The first section shouldn't have a page break before it */
-  section:last-child {
-    break-after: auto;
-  }
-
-  h2 {
-    font-family: Poppins, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin: 0 0 0.5rem;
-    border-bottom: 1px solid #e0e6e3;
-    padding-bottom: 0.2rem;
-  }
-
-  h3 {
-    font-family: Poppins, sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--color-secondary);
-    margin: 0 0 0.2rem;
-  }
-  /* Show URLs in print for buttons/links */
-  a[href] {
-    color: #000 !important;
-    text-decoration: none !important;
-  }
-  .projects a.btn::after,
-  #qualificacoes a.ext-link::after,
-  .contact a[href]::after {
-    content: " (" attr(href) ")";
-    font-size: 0.8rem;
-    color: #000;
-  }
-
-  p, li {
-    font-family: Lato, Arial, sans-serif;
-    font-size: 0.85rem;
-    color: var(--color-text);
-    margin: 0 0 0.3rem;
-    line-height: 1.4;
-  }
-
-  ul {
-    margin: 0 0 0.3rem 1.2em;
-    padding: 0;
-  }
-
-  .job, .project-card {
-    background: #fff !important;
-    border-radius: 0.5rem;
-    box-shadow: none !important;
-    border: 1px solid #e0e6e3;
-    padding: 0.8rem;
-    margin-bottom: 0.5rem;
-    break-inside: avoid;
-  }
-
-  .date-col {
-    width: 20%;
-    text-align: right;
-    font-size: 0.75rem;
-    color: var(--color-subtext);
-    padding-right: 0.3rem;
-    vertical-align: top;
-  }
-
-  .job-content-col {
-    width: auto;
-    vertical-align: top;
-  }
-
-  .section-separator {
-    border-top: 1px solid #e0e6e3;
-    margin: 0.5rem 0;
-  }
-
-  .footer-print {
-    position: fixed;
-    bottom: 1rem;
-    left: 0;
-    width: 100%;
-    text-align: right;
-    font-size: 0.8rem;
-    color: var(--color-subtext);
-    padding-right: 1rem;
-  }
-
-  .footer-print .page-num {
-    font-weight: 500;
-    color: var(--color-primary);
-  }
+@media print{
+  html, body{background:#fff;color:#000;font-size:13px;line-height:1.4;padding:0;margin:0;}
+  .container{padding:0 6mm;margin:0 auto;width:100%;}
+  .site-header{background:#fff;border:none;padding-bottom:4mm;}
+  .site-header .container{padding:0;gap:3mm 6mm;}
+  .hero-gradient{background:#fff;border:none;border-radius:0;padding:0 0 4mm 0;border-bottom:1px solid #dfe3e8;}
+  .avatar img{width:70px;height:70px;border-width:1px;}
+  h1{font-size:26px;margin:0 0 2mm 0;color:#000;}
+  h2{font-size:18px;margin:0 0 3mm 0;color:#000;}
+  p{margin:0 0 3mm 0;}
+  #contatos.contact-line{flex-direction:column;align-items:flex-start;gap:1mm;}
+  #contatos .contact-item{gap:2mm;color:#000;font-size:0.95em;}
+  #contatos .contact-item .label{color:#000;}
+  .btn,.actions,nav{display:none!important}
+  #contatos .btn{display:inline-flex!important;border:1px solid #000;color:#000;padding:2px 8px;border-radius:6px;background:transparent;font-size:0.85rem;font-weight:600;text-decoration:none;margin-left:2mm;}
+  main section{padding-block:0;border:none;}
+  main section + section{border-top:1px solid #dfe3e8;padding-top:6mm;margin-top:6mm;}
+  .section{margin:6mm 0 4mm}
+  .item,.card{box-shadow:none;border:1px solid #cfcfcf;break-inside:avoid;margin:4mm 0;padding:4mm;}
+  #projetos{display:none!important}
+  .projects-grid{gap:6mm;}
+  a{color:#000;text-decoration:none}
+  .site-footer{display:none!important}
 }
-
-  .footer-print .page-num::after { content: counter(page); }
-  .footer-print .total-pages::after { content: counter(pages); }
-

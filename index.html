@@ -1,252 +1,109 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Adonias Pereira da Silva — Técnico em Meio Ambiente e Segurança com Automação Digital</title>
-  <meta name="description" content="Currículo profissional de Adonias Silva — especialista em Meio Ambiente, Segurança do Trabalho e Automação Digital no projeto S11D.">
-
-  <!-- SEO: Open Graph -->
-  <meta property="og:title" content="Currículo Adonias PROD10X">
-  <meta property="og:description" content="Dupla habilitação técnica + Full Stack com IA e Automação Digital.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/img/preview.png">
-  <meta property="og:url" content="https://adoniasjoshua-collab.github.io/curriculum-tecambiental/">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/print.css" media="print">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script defer src="assets/js/cv-export.js"></script>
-</head>
-<body>
-  <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
-
-  <header class="site-header" id="top" role="banner">
-    <div class="container header-inner">
-      <a class="brand" href="#top">Adonias Pereira</a>
-      <nav class="nav" id="main-nav" aria-label="Navegação principal">
-        <a href="#about">Sobre</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#projects">Projetos</a>
-        <a href="#contact">Contato</a>
-      </nav>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">☰</button>
-    </div>
-  </header>
-
-  <main id="main-content" class="print-area">
-    <!-- Cabeçalho para impressão (primeira página) -->
-    <div class="container resume-header-print only-print" role="region" aria-label="Cabeçalho do currículo (impressão)">
-      <div class="name-block">
-        <img class="profile-avatar print-avatar" src="assets/images/ADONIAS%20PERFIL.png" alt="Foto de perfil de Adonias Pereira" />
-        <div>
-          <h1 class="name">Adonias Pereira da Silva</h1>
-          <p class="title">Técnico Ambiental • Fullstack • IA • Desenvolvedor</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Adonias Pereira da Silva — Currículo</title>
+    <meta name="description" content="Currículo de Adonias Pereira da Silva" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="preload" href="assets/css/styles.css" as="style" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/print.css" media="print" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container hero-gradient">
+        <h1 id="nome" class="hero-title">ADONIAS PEREIRA DA SILVA</h1>
+        <p id="titulo">Técnico em Meio Ambiente e Técnico em Segurança do Trabalho | Desenvolvedor Fullstack IA</p>
+        <div id="contatos" class="muted contact-line">
+          <span class="contact-item">
+            <span class="label">WhatsApp:</span>
+            <a class="btn btn-action" href="https://wa.me/5594992993138" target="_blank" rel="noopener">(94) 99299-3138</a>
+          </span>
+          <span class="contact-item">
+            <span class="label">Email:</span>
+            <a href="mailto:ADONIAS.JOSHUA@GMAIL.COM">ADONIAS.JOSHUA@GMAIL.COM</a>
+          </span>
+          <span class="contact-item">
+            <span class="label">LinkedIn:</span>
+            <a class="btn btn-outline" href="https://www.linkedin.com/in/adoniasprod10x" target="_blank" rel="noopener">/in/adoniasprod10x</a>
+          </span>
         </div>
+        <figure class="avatar" aria-hidden="true">
+          <img src="assets/images/Perfil Adonias.png" alt="Foto de perfil de Adonias" width="112" height="112" />
+        </figure>
       </div>
-      <p class="contact">
-        Telefone/WhatsApp: <a href="https://wa.me/5594992993138" target="_blank">(94) 99299-3138</a><br>
-        Email: <a href="mailto:adonias.joshua@gmail.com">adonias.joshua@gmail.com</a><br>
-        Canaã dos Carajás, PA — adoniasprod10x.com
-      </p>
-      
-    </div>
+    </header>
 
-    <!-- Hero (tela) -->
-    <section class="hero" id="hero" role="region" aria-labelledby="hero-title">
-      <div class="container">
-        <img class="profile-avatar" src="assets/images/ADONIAS%20PERFIL.png" alt="Foto de perfil de Adonias Pereira" />
-        <h1 class="hero-title" id="hero-title">Adonias Pereira da Silva</h1>
-        <p class="hero-sub">Técnico Ambiental • Fullstack • IA • Desenvolvedor</p>
-        <div class="hero-ctas">
-          <a class="btn btn-primary" href="#" id="download-pdf" aria-label="Baixar currículo em PDF">Baixar CV</a>
-          <a class="btn btn-secondary" href="https://www.linkedin.com/in/adoniasprod10x" target="_blank" aria-label="Visitar perfil no LinkedIn">LinkedIn</a>
-          <a class="btn btn-action" href="https://wa.me/5594992993138" target="_blank" aria-label="Enviar mensagem no WhatsApp">WhatsApp</a>
-        </div>
-      </div>
-    </section>
+    <main id="conteudo" class="container" role="main">
+      <section id="resumo" class="section" aria-labelledby="resumo-titulo">
+        <h2 id="resumo-titulo">Resumo</h2>
+        <p>
+          Técnico em Meio Ambiente com atuação sólida em obras, montagem mecânica e mineração (VALE/S11D). Experiência em conformidade ISO 14001, gestão de resíduos (classe I/II), produtos químicos/FDS, auditorias internas e 5S/VPS. Diferencial em automação e dados: checklists e dashboards via AppSheet/Sheets/ Power BI e integrações n8n/Make para relatórios e KPIs confiáveis. CNH AD e Inglês fluente.
+        </p>
+      </section>
 
-    <!-- Experiência -->
-    <section class="experience" id="experiencia" role="region" aria-labelledby="experiencia-title">
-      <div class="container">
-        <h2 id="experiencia-title">Experiência</h2>
+      <section id="experiencia" class="section" aria-labelledby="experiencia-titulo">
+        <h2 id="experiencia-titulo">Experiência</h2>
+        <div id="experiencia-list" class="list"></div>
+        <noscript>
+          <p>Ative o JavaScript para carregar as experiências do arquivo JSON.</p>
+        </noscript>
+      </section>
 
-        <article class="job">
-          <h3>CKTR BRASIL SERVIÇOS LTDA</h3>
-          <p><strong>Técnico de Meio Ambiente</strong> | 15/05/2024 – 10/04/2025</p>
-          <ul>
-            <li>Acompanhamento de campo e gestão de resíduos na Mina S11D (Vale), alinhados à ISO 14001 e às exigências do cliente.</li>
-            <li>Execução de inspeções de rotina, suporte a auditorias internas e externas e gestão de requisitos legais aplicáveis ao empreendimento.</li>
-            <li>Otimização de fluxos de tratamento de dados e desenvolvimento de dashboards (Excel, Power BI).</li>
-            <li>Treinamentos de conscientização ambiental e apoio à implementação de 5S e programas de maturidade.</li>
-            <li>Gestão de inventário de produtos químicos e controle de Fichas de Dados de Segurança (FDS).</li>
-          </ul>
-        </article>
+      <section id="qualificacoes" class="section" aria-labelledby="qualificacoes-titulo">
+        <h2 id="qualificacoes-titulo">Qualificações</h2>
+        <ul id="qualificacoes-list" class="tags"></ul>
+      </section>
 
-        <article class="job">
-          <h3>MIP ENGENHARIA LTDA</h3>
-          <p><strong>Técnico de Meio Ambiente Pleno</strong> | 24/01/2024 – 22/04/2024</p>
-          <ul>
-            <li>Inspeções ambientais na Mina S11D (Vale) e treinamentos técnicos para conformidade e segurança no manuseio de químicos.</li>
-            <li>Gestão de indicadores ambientais e automação de relatórios (Google Sheets, Excel).</li>
-            <li>Apoio em auditorias internas e acompanhamento de ações corretivas/preventivas.</li>
-          </ul>
-        </article>
+      <section id="formacao" class="section" aria-labelledby="formacao-titulo">
+        <h2 id="formacao-titulo">Formação</h2>
+        <div id="formacao-list" class="list"></div>
+      </section>
 
-        <article class="job">
-          <h3>PLAMONT — PLANEJAMENTO, MONTAGEM E ENGENHARIA LTDA</h3>
-          <p><strong>Técnico em Meio Ambiente II</strong> | 14/06/2023 – 09/11/2023</p>
-          <ul>
-            <li>Monitoramento de aspectos e impactos ambientais em montagem mecânica, assegurando cumprimento de planos de mitigação.</li>
-            <li>Implantação de ferramentas digitais de gestão ambiental e padronização de templates de coleta de dados.</li>
-            <li>Inspeções de campo, gerenciamento de resíduos e manutenção de documentação regulatória.</li>
-          </ul>
-        </article>
+      <section id="idiomas" class="section" aria-labelledby="idiomas-titulo">
+        <h2 id="idiomas-titulo">Idiomas</h2>
+        <ul id="idiomas-list" class="tags"></ul>
+      </section>
 
-        <article class="job">
-          <h3>HORIZONTE / P�yry</h3>
-          <p><strong>Técnico Sênior em Meio Ambiente</strong> | Outubro 2022 – Abril 2023</p>
-          <ul>
-            <li>Atuação durante a implantação do Projeto Níquel em Conceição do Araguaia (TO).</li>
-            <li>Monitoramento de contratadas e coordenação de indicadores ambientais com foco em melhoria contínua.</li>
-          </ul>
-        </article>
-
-        <article class="job">
-          <h3>COMPANHIA PARANAENSE DE CONSTRUÇÃO S/A (CPC)</h3>
-          <p><strong>Técnico em Meio Ambiente III</strong> | 01/09/2022 – 03/10/2022</p>
-          <ul>
-            <li>Atuação durante a implantação do Projeto Níquel em Conceição do Araguaia (Copa Cons), assegurando conformidade com ISO 14001 e requisitos do cliente.</li>
-            <li>Suporte documental, inspeções e interface com equipes para resolução ágil de não conformidades.</li>
-          </ul>
-        </article>
-
-        <article class="job">
-          <h3>PLAMONT — PLANEJAMENTO, MONTAGEM E ENGENHARIA LTDA</h3>
-          <p><strong>Técnico em Meio Ambiente</strong> | 08/11/2021 – 05/07/2022</p>
-          <ul>
-            <li>Inspeções de campo e apoio a rotinas de monitoramento ambiental.</li>
-            <li>Gestão interna de documentação e requisitos legais de meio ambiente.</li>
-            <li>Consolidação de dados e digitalização de relatórios (Excel, Google Sheets).</li>
-          </ul>
-        </article>
-
-        <article class="job">
-          <h3>SARENS</h3>
-          <p><strong>Função principal: Técnico em Meio Ambiente</strong> | 2015 – 2017</p>
-          <ul>
-            <li>Integração de requisitos ambientais em planejamento logístico de grandes equipamentos.</li>
-            <li>Gestão de resíduos e prevenção de incidentes em transporte e montagem.</li>
-            <li>Inspeções de campo periódicas para verificação de conformidade ambiental nas operações.</li>
-            <li>Gestão de requisitos legais aplicáveis e controles documentais de meio ambiente.</li>
-            <li>Atendimento aos requisitos da ISO 14001 e procedimentos locais do cliente (Serra Sul S11D).</li>
-          </ul>
-        </article>
-
-        <article class="job">
-          <h3>ETI</h3>
-          <p><strong>Técnico ambiental</strong> | 2013 – 2015</p>
-          <ul>
-            <li>Gestão de resíduos e conformidade ambiental em projetos elétricos.</li>
-            <li>Inspeções de campo e suporte técnico para mitigação de impactos ambientais.</li>
-            <li>Gestão de requisitos legais ambientais e manutenção de registros e evidências.</li>
-            <li>Atendimento aos requisitos da ISO 14001 e aos procedimentos locais do cliente (Serra Sul S11D).</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- Qualificações Profissionais -->
-    <section class="qualifications" id="qualificacoes" role="region" aria-labelledby="qualificacoes-title">
-      <div class="container">
-        <h2 id="qualificacoes-title">Qualificações Profissionais</h2>
-        <ul>
-          <li><span aria-hidden="true" style="color:var(--color-secondary)">●</span> <strong>Excel Impressionador</strong> — Excel avançado e tratamento de dados para criação de dashboards, análises e automação de indicadores de desempenho.</li>
-          <li><span aria-hidden="true" style="color:var(--color-accent)">●</span> <strong>Gestão de Dados &amp; Design de Dashboards</strong> — Transformação de dados brutos em insights com Google Sheets e Power BI.</li>
-          <li><span aria-hidden="true" style="color:var(--color-highlight)">●</span> <strong>Desenvolvimento de Apps (AppSheet) &amp; Automações Digitais (n8n)</strong> — Prototipação rápida de apps de coleta/gestão de dados e orquestração de fluxos automatizados para relatórios, integrações e notificações.</li>
-          <li><span aria-hidden="true" style="color:var(--color-primary)">●</span> <strong>Lógica de Programação &amp; Desenvolvimento Full Stack</strong> — Base sólida em HTML, CSS e JavaScript para criar ferramentas web responsivas e automações para gestão ambiental e de segurança.</li>
-          <li><span aria-hidden="true" style="color:var(--color-action)">●</span> <strong>IA &amp; Automação Digital</strong> — Certificação pela Comunidade Impressionadora, com experiência prática integrando IA em fluxos de produtividade e tomada de decisão.</li>
-          <li><span aria-hidden="true" style="color:var(--color-secondary)">●</span> <strong>Auditor Interno ISO 9001 &amp; ISO 14001</strong> — Qualificação para realizar e apoiar auditorias, garantindo conformidade com sistemas de gestão da qualidade e ambiental.</li>
-          <li><span aria-hidden="true" style="color:var(--color-highlight)">●</span> <strong>CNH AD</strong> — Habilitado para condução de veículos leves e pesados, com mobilidade em campo em áreas industriais e remotas.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Projetos -->
-    <section class="projects" id="projects" role="region" aria-labelledby="projects-title">
-      <div class="container">
-        <h2 id="projects-title">Projetos</h2>
+      <section id="projetos" class="section" aria-labelledby="projetos-titulo">
+        <h2 id="projetos-titulo">Projetos em Destaque</h2>
         <div class="projects-grid">
-          <a class="btn btn-primary btn-cta" id="btn-5s" href="https://adoniasjoshua-collab.github.io/diagnostico5Sprodutividade10Xrevisado/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Ferramenta de Auditoria 5S">
-            <svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-              <path d="M9 11l3 3L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            Ferramenta Auditoria de 5S
-          </a>
-          <a class="btn btn-outline btn-cta" id="btn-appsheet" href="https://www.appsheet.com/start/37011907-c333-42d8-81d3-6ed5e5bb8a50" target="_blank" rel="noopener noreferrer" aria-label="Abrir AppSheet — Gestão de Desvios Ambientais">
-            <svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-              <path d="M12 20l9-16H3l9 16z" stroke="currentColor" stroke-width="2" fill="none"/>
-              <circle cx="12" cy="10" r="2" stroke="currentColor" stroke-width="2" fill="none"/>
-            </svg>
-            AppSheet — Gestão de Desvios Ambientais
-          </a>
-          <a class="btn btn-outline btn-cta" id="btn-appsheet-maturidade" href="https://www.appsheet.com/start/42449764-ff9f-4dd6-9845-294aad8477b1" target="_blank" rel="noopener noreferrer" aria-label="Abrir AppSheet — Gestão de Maturidade 10X5S">
-            <svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-              <path d="M12 20l9-16H3l9 16z" stroke="currentColor" stroke-width="2" fill="none"/>
-              <circle cx="12" cy="10" r="2" stroke="currentColor" stroke-width="2" fill="none"/>
-            </svg>
-            AppSheet — Gestão de Maturidade 10X5S
-          </a>
+          <article class="card project-card" aria-label="Ferramenta para Auditoria Interna de 5S">
+            <h3>Ferramenta para Auditoria Interna de 5S</h3>
+            <p class="meta">AppSheet • Automação n8n</p>
+            <ul>
+              <li>Checklists inteligentes que calculam notas por pilar e geram plano de ação automático.</li>
+              <li>Resumo consolidado da auditoria com ranking de áreas e histórico de evidências.</li>
+              <li>Alertas via WhatsApp/Email para desvios críticos e acompanhamento em tempo real.</li>
+            </ul>
+            <a class="btn btn-outline" href="https://adoniasjoshua-collab.github.io/auditoriade5s-Produtividade-10X" target="_blank" rel="noopener">Acessar Ferramenta</a>
+          </article>
+
+          <article class="card project-card" aria-label="App para Gestão de Desvios de 5S no Campo">
+            <h3>App para Gestão de Desvios de 5S no Campo</h3>
+            <p class="meta">AppSheet • Make • QR Codes</p>
+            <ul>
+              <li>Registro de desvios via QR Code e anexos multimídia direto do campo.</li>
+              <li>Fluxos Make/n8n notificando responsáveis, prazos e status das correções.</li>
+              <li>Relatórios em PDF e painel de KPIs para auditorias SGA/ISO 14001.</li>
+            </ul>
+            <a class="btn btn-outline" href="https://www.appsheet.com/start/42449764-ff9f-4dd6-9845-294aad8477b1" target="_blank" rel="noopener">Experimentar App</a>
+          </article>
         </div>
-      </div>
-    </section>
 
-    <!-- Contato -->
-    <section class="contact" id="contact" role="region" aria-labelledby="contact-title">
+      </section>
+    </main>
+
+    <footer class="site-footer no-print" role="contentinfo">
       <div class="container">
-        <h2 id="contact-title">Contato</h2>
-        <ul>
-          <li>Telefone/WhatsApp: <a href="https://wa.me/5594992993138" target="_blank">(94) 99299-3138</a></li>
-          <li>Email: <a href="mailto:adonias.joshua@gmail.com">adonias.joshua@gmail.com</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/adoniasprod10x" target="_blank">www.linkedin.com/in/adoniasprod10x</a></li>
-          <li>GitHub: <a href="https://github.com/adoniasjoshua-collab" target="_blank">adoniasjoshua-collab</a></li>
-        </ul>
+        <button id="btn-imprimir" type="button" class="btn btn-primary">Imprimir / Salvar PDF</button>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <strong>Adonias PROD10X</strong>
-        <span>Meio Ambiente • Automação Digital</span>
-      </div>
-      <nav class="footer-links" aria-label="Links do rodapé">
-        <a href="mailto:adonias.joshua@gmail.com" aria-label="Enviar e‑mail">Email</a>
-        <a href="https://www.linkedin.com/in/adoniasprod10x" target="_blank" rel="noopener" aria-label="Abrir LinkedIn">LinkedIn</a>
-        <a href="#top" aria-label="Voltar ao topo">Topo</a>
-      </nav>
-      <div class="footer-copy">
-        <span>© <span id="year"></span> Adonias Pereira da Silva. Todos os direitos reservados.</span>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Rodapé de impressão -->
-  <div class="footer-print only-print" aria-hidden="false">
-    Currículo Adonias PROD10X — Página <span class="page-num"></span> de <span class="total-pages"></span>
-  </div>
-
-</body>
-</html>
-
-
-
-
+    <script src="assets/js/app.js" defer></script>
+  </body>
+  </html>

@@ -1,0 +1,22 @@
+[
+  {
+    "curso": "Técnico em Meio Ambiente",
+    "instituicao": "Escola Sistema Técnico Regular — SOTER",
+    "detalhes": "Período: 2006-2008. Gestão ambiental aplicada; ISO 14001; requisitos legais; inspeções e monitoramento em campo."
+  },
+  {
+    "curso": "Técnico em Segurança do Trabalho",
+    "instituicao": "Instituto IETAN",
+    "detalhes": "Período: 2022-2024. NRs aplicadas; análise de riscos; integração SSMA; procedimentos e treinamentos de segurança."
+  },
+  {
+    "curso": "Formação Full Stack",
+    "instituicao": "Hashtag Treinamentos",
+    "detalhes": "Período: 2023-2024. HTML, CSS, JavaScript; boas práticas de front-end; integração com automações e dados para soluções web."
+  },
+  {
+    "curso": "Inglês — Autodidata",
+    "instituicao": "Estudo Autônomo (recursos online e imersão prática)",
+    "detalhes": "Período: 2023-Atual. Conversação, leitura técnica e escrita aplicada a projetos, documentação e entrevistas."
+  }
+]
